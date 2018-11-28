@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+a:hover{color: #c50a0a; text-decoration: none;}
+a,h1,p,h2,h3{color: #DDDDDD; font-family: 'Merriweather', serif; text-decoration: none;}
+h3{text-align: center; font-family: 'Merriweather', serif; font-size: 40px;}
+
+
+#body{width: 100%; margin: 0px;}
+
+/*#container{background-image: url("../../images/PlakatIskra1.jpg");background-blend-mode: soft-light;  background-color: rgba(0, 0, 0, 0.4);  background-repeat: no-repeat; background-position: center top; background-attachment: fixed; background-size: cover;}
+*/
+
+#topbar .nav{position: absolute;}
+#topbar .nav ul{padding: 0 0 0 15px; margin-top: 10px; margin-bottom: 10px;}
+#topbar .nav li{display: inline;  padding: 0 10px;}
+#topbar .nav {right: 10px; width: 800px; top: 10px; z-index: 2; padding: 10px; box-sizing:  content-box;}
+#topbar .nav p, a{font-family: 'Work Sans', sans-serif;}
+
+
+#content p{text-align: center; margin: auto; font-size: 30px; font-family: 'Open Sans', sans-serif;}
+#content h1, h2{text-align: center; margin: auto; font-size: 50px; margin-bottom: 100px;}
+
+#backtotop {border-radius:10px; background-clip:padding-box; background-color: #c50a0a }
+#backtotop{z-index:999; display:inline-block; position:fixed; visibility:hidden; bottom:20px; right:20px; width:36px; height:36px; line-height:36px; font-size:16px; text-align:center; opacity:.2;}
+#backtotop i{display:block; width:100%; height:100%; line-height:inherit;}
+#backtotop.visible{visibility:visible; opacity:.5;}
+#backtotop:hover{opacity:1; color: white;}
+
+.ptt{height:1500px; border: 0;}
+
+
+#name1 {padding: 20px 0 20px 0;}
+#name3 {padding: 0 0 20px 0;}
+
+.look h2{margin: 0 0 50px 0 !important;}
+.look p{margin: 0 0 100px 0 !important;}
+
+
+#name1 div.business_card {padding: 30px 0 0 50px;}
+#name1 img.business_card {margin: 0 0 40px 0; box-shadow: 0 0 10px 2px 	rgb(197, 10, 10, 0.5);}
+#name1 div.business_card p {text-align: left;}
+#name1 p.regulations{text-align: left; padding: 0 50px 0 50px; font-size: 1.2rem;}
+
+#name2 a{font-size: 80px; padding: 0 10px}
+#name2 div{margin: 0 auto; width: 335px;}
+
+.fb:hover{color: #3b5998;}
+.inst:hover{color:#fbad50;}
+
+#map{padding: 0 0 20px 0;}
+
+
+img{width: 100%; padding: 0 0 20px 0;}
+
+
+
+#footer #copyright{padding: 5px 0;}
+
+
+#footer #copyright p{margin: 10px 10px 10px 35px; padding: 0;}
+
+
+#img_pwr{ width: 90%; }
+.img_sktt{opacity: 0.80; }
+#img_ptt{left: 30px; top: 10px; width: 80px; position: absolute; }
+
+.img_face{width: 150px;}
+
+.mob{padding: 0 !important; display: inline-block !important; margin: 40px 0 0 15px;}
+.mob:hover{cursor: pointer; color: #c50a0a;}
+
+.mob2{margin: 40px 0 0 0 !important;}
+
+#bars{display: none; z-index:999; position: fixed; width:20x; height: 20px;  top: 20px; left:20px;}
+#bars svg {z-index:999; position: fixed; width:20px; height: 20px;  top: 20px; left:20px; color: #c50a0a;}
+
+
+
+#menu{z-index: 998; display: none; position: fixed; top: 0; left: 0; background-color:rgba(17, 15, 15, 0.90); width: 200px; height: 100%; }
+
+#menu div {z-index: 999; position: fixed; top: 50px; left: 25px; color: #c50a0a; text-decoration: none; list-style-type: none; max-height: 90%;  }
+#menu div a{padding: 7px; font-size:0.8rem; text-transform:uppercase; display: list-item; color: white; text-decoration: none; }
+#menu div a:hover, #menu div a:focus{color:#c50a0a;}
+
+#menu div img {width: 70px; filter: contrast(200%);}
+
+
+.business_card{display: inline-block;}
+.business{margin-left: auto; margin-right: auto; width: 600px;}
+.business:last-of-type{margin-bottom: 100px;}
+.business img{padding: 0;}
+
+.transport{display: inline-block; width: 597px; padding: 30px 0 50px 0;}
+
+
+.text{margin-left: auto; margin-right: auto; position: relative; width: 100%; background-color: rgba(17, 15, 15, 0.8);}
+
+.image{/*position: absolute;*/  width: 195px; display: -ms-inline-grid ;  display: inline-grid;}
+
+.r{text-align: right !important;}
+
+.l{text-align: left !important;}
+
+
+.links a{color: saddlebrown !important;}
+.links a:hover{color:#c50a0a !important;}
+.half{width: 597px; display: inline-block; }
+.halfl{padding: 0 10px 0 0 ;}
+.halfr{padding: 0 0 0 10px ;}
+
+
+.frame{background-color: rgba(17, 15, 15, 0.8);}
+
+.title p{padding: 15px;}
+
+.visibles{opacity: 0;}
+.contact h2{margin: 0 0 10px 0;}
+.contact p{padding-top: 5px;}
+
+.last{padding: 0 !important}
+
+.yt{width: 100%; height: 392px;}
+
+.end{padding: 0;}
+.end_p{padding-bottom: 30px;}
+
+.overall{height: 300px;} 
+
+.top{height: 150px;}
+
+.space{width: 1200px; margin: 0 auto 0 auto; }
+.space_with_logo{width: 800px; margin: 0 auto 0 auto; display: inline-block;}
+
+.edit{font-size: 50% !important;}
+.edit2{font-size: 70% !important;}
+
+table{color: white; text-align: center; margin: 0 auto;}
+table td{padding: 5px 10px;}
+
+.spa{padding-top: 80px!important ;}
+
+
+
+.google-maps {
+	position: relative;
+	padding-bottom: 75%; /* Tutaj regulujemy wysokość*/
+    height: 0;
+    opacity: 0.75;
+    overflow: hidden;
+	}
+	.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url("../../images/PlakatIskra1.jpg") no-repeat center top;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+
+    
+@media screen and (max-width: 1250px)
+{
+
+.space{width: 800px;}
+.image{display: none;}
+.half{display: inline;}
+.halfl{padding: 0;}
+.halfr{padding:  0;}
+.halfr iframe{margin: 50px 0 0 0;}
+.yt{height: 450px;}
+.l, .r{text-align: center !important;}
+.transport{display: inline;}
+.transport p {padding: 15px 0 15px 0;}
+.space h3 {padding: 30px 0 10px 0;}
+.ptt{height:1000px;}
+}
+
+@media screen and (max-width: 970px)
+{
+
+    .space{width: 700px;}
+    .space_with_logo{display: inline;}
+    h1{font-size: 40px !important; }
+    p{font-size: 22px !important;}
+    h2{font-size: 30px !important;}
+    h3{font-size: 26px !important;}
+    #copyright p{font-size: 1rem !important;}
+    .nav{display: none;}
+    #bars{display: inherit;}
+    #img_ptt{left:unset; right: 30px;}
+    .top{height: 100px;}
+}
+
+@media screen and (max-width: 730px)
+{
+    .space{width: 500px;}
+    .regulations{padding: 0 !important;}
+
+}
+
+@media screen and (max-width: 730px)
+{
+    .space{width: 300px;}
+    .ptt_list {width: 350px!important;}
+    #content h2{margin-bottom: 30px;}
+    .business{width:300px;}
+    div.business_card {padding: 30px 0 0 10px !important;}
+    .business p {font-size:16px !important;}
+    .business img {width: 80px !important;}
+    h1{font-size: 24px !important; }
+    p{font-size: 14px !important;}
+    h2{font-size: 22px !important;}
+    h3{font-size: 16px !important;}
+    #copyright p{font-size: 0.5rem !important;}
+    .overall{height:120px;}
+    .yt{height: 220px;}
+    .look h2{margin: 0 0 20px 0 !important;}
+    .look p{margin: 0 0 50px 0 !important;}
+     .business:last-of-type{margin-bottom: 50px;}
+     #container{  background-position: center 25%; }
+     .ptt{height:500px;}
+     table{font-size: 10px}
+     #name2 a{font-size: 40px; padding: 0 5px;}
+     #name2 div{width: 168px;}
+     .spa{padding-top: 40px!important;}
+     .edit2{font-size: 50% !important;}
+
+
+
+
+}
+
+@media screen and (max-width: 350px)
+{
+    .ptt_list {width: 300px !important;}
+
+}
+
+

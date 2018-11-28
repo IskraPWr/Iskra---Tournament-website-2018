@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+body {background-color:rgba(255,255,255, 0.5)!important;}
+a.btn{margin-top: 5px!important;}
+.panel-success>.panel-heading{background-image: linear-gradient(to bottom,#c50a0a 0,rgba(17, 15, 15, 1) 100%)!important; color: black!important;}

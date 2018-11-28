@@ -1,0 +1,16 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule VIII-OTTT-o-Puchar-JM-Rektora-PWr index.html
+RewriteRule sponsorzy sponsorzy.html
+RewriteRule sedziowie sedziowie.html
+RewriteRule regulamin regulamin.html
+RewriteRule program program.html
+RewriteRule listy listy.php
+RewriteRule kontakt kontakt.html
+RewriteRule dojazd dojazd.html
+ErrorDocument 404 http://www.ottt.pwr.edu.pl
